@@ -1,4 +1,5 @@
-2. class Warrior: # воин
+4.2. Первая часть задания
+class Warrior: # воин
 
     def __init__(self, nam):
         self._name = nam # имя
@@ -29,3 +30,29 @@ warrior2.foo()
 
 warrior3 = Elf("warrior3")
 warrior3.foo()
+
+---
+
+Вторая часть задания
+class Warrior: # воин
+
+    def __init__(self, nam):
+        self._name = nam # имя
+
+    def foo(self):
+        return print("Warrior")
+
+class Dwarf(Warrior): # дварф
+
+    def __init__(self, nam):
+        super().__init__(nam)
+    
+    def foo(self):
+        return print("Dwarf")
+
+class Elf(Warrior): # эльф
+    def __init__(self, nam):
+        super().__init__(nam)
+    
+    def foo(self):
+        return print("Elf")
