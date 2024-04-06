@@ -34,6 +34,8 @@ warrior3.foo()
 ---
 
 Вторая часть задания
+import random
+
 class Warrior: # воин
 
     def __init__(self, nam):
@@ -56,3 +58,16 @@ class Elf(Warrior): # эльф
     
     def foo(self):
         return print("Elf")
+
+
+list = []
+n = 10
+for i in range(n):
+    name_num = random.randint(1,10)
+    name = "warrior" + str(name_num)
+    if name_num % 2 == 0:
+        warrior = Dwarf(name)
+    else:
+        warrior = Elf(name)
+    list.append(warrior)
+    list[i].foo()
