@@ -61,9 +61,9 @@ class Elf(Warrior): # эльф
 
 
 list = []
-n = 10
+n = 500
 for i in range(n):
-    name_num = random.randint(1,10)
+    name_num = random.randint(1,500)
     name = "warrior" + str(name_num)
     if name_num % 2 == 0:
         warrior = Dwarf(name)
