@@ -22,4 +22,4 @@ https://github.com/Sweetr-feelin/py_study1/blob/main/task5.py
 
 Ссылку на отчёт на гитхабе в формате md: https://github.com/Sweetr-feelin/Sweetr-feelin/blob/main/README.md
 
-Скриншот вывода программы в консоль: https://github.com/Sweetr-feelin/py_study1/blob/main/image.png
+Скриншот вывода программы в консоль: https://github.com/Sweetr-feelin/py_study1/blob/main/task6_image1.png
