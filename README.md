@@ -4,4 +4,11 @@
 
 * Задания 1-5, и работа надо ошибками в задании 6, выполнялись в Python Tutor (https://pythontutor.com/visualize.html#mode=edit).
 Файлы с решениями находятся в репозитории (https://github.com/Sweetr-feelin/py_study1/tree/main)
+*
 * Отчет об ознакомлении с утилитой "Файловый менеджер Far" представлен в виде изображений task7_image1.png и task7_image2.png
+*
+* Отчет о промежуточном задании по настройке Линукс:
+* 1. Поставил виртуальную среду VirtualBox (task9_VBmanager.png) и создал на ней место под Ubuntu, но запустить ее так и не смог - не разобрался пока что, почему не запускается.
+  2. Запустил встроенную в windows версию Ubuntu (task9_ubuntu_console.png)
+  3. Поставил midnight commander (task9_mc.png)
+  4. Запустил на встроенной Ubuntu проверку заданий с пакетами через mc (task9_test_packages.png)
