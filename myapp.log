@@ -1,0 +1,66 @@
+INFO:__main__:Started
+INFO:mylib:Doing something
+INFO:__main__:Started
+INFO:mylib:Doing something
+INFO:__main__:Started
+INFO:mylib:Doing something
+INFO:__main__:Finished
+INFO:__main__:Started
+INFO:mylib:Doing something
+INFO:__main__:Finished
+INFO:__main__:Started
+INFO:mylib:Doing something
+INFO:__main__:Finished
+INFO:__main__:Started
+INFO:__main__:Started
+INFO:__main__:Отсутствуют патроны для стрельбы
+INFO:__main__:Finished
+INFO:__main__:Отсутствуют патроны для стрельбы
+INFO:__main__:Started
+INFO:__main__:Finished
+INFO:__main__:Отсутствуют патроны для стрельбы
+INFO:__main__:Started
+INFO:__main__:Finished
+INFO:__main__:No ammo
+INFO:__main__:Started
+INFO:__main__:Finished
+INFO:__main__:No ammo
+INFO:__main__:Started
+INFO:__main__:Finished
+INFO:__main__:No ammo
+INFO:__main__:Started
+INFO:__main__:Finished
+INFO:__main__:Started
+INFO:__main__:Finished
+INFO:__main__:No ammo
+INFO:__main__:Started
+INFO:__main__:Finished
+INFO:__main__:Started
+INFO:__main__:Finished
+INFO:__main__:No ammo
+INFO:__main__:Started
+INFO:__main__:Finished
+INFO:__main__:Started
+INFO:__main__:Low weapon health
+INFO:__main__:Finished
+INFO:__main__:Low weapon health
+INFO:__main__:Started
+INFO:__main__:No ammo
+INFO:__main__:Finished
+INFO:__main__:Started
+INFO:__main__:Low weapon health
+INFO:__main__:Finished
+INFO:__main__:No ammo
+INFO:__main__:Low weapon health
+INFO:__main__:Started
+INFO:__main__:Finished
+INFO:__main__:Started
+INFO:__main__:Finished
+INFO:__main__:Started
+INFO:__main__:No ammo
+INFO:__main__:Finished
+INFO:__main__:Started
+INFO:__main__:Low weapon health
+INFO:__main__:Finished
+INFO:__main__:No ammo
+INFO:__main__:Low weapon health
