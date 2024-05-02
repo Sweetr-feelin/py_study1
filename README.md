@@ -12,3 +12,7 @@
   2. Запустил встроенную в windows версию Ubuntu (task9_ubuntu_console.png)
   3. Поставил midnight commander (task9_mc.png)
   4. Запустил на встроенной Ubuntu проверку заданий с пакетами через mc (task9_test_packages.png)
+
+* Задание 10 - отладка и логгирование:
+* 1. Первая часть выложена в проекте (https://github.com/Sweetr-feelin/py_study1/blob/main/task10.1.py)
+  2. Вторая часть в виде скриншотов предоставлена файлами "task10.2_debug1.png" и "task10.2_debug2.png"
