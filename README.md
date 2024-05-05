@@ -16,3 +16,7 @@
 * Задание 10 - отладка и логгирование:
 * 1. Первая часть выложена в проекте (https://github.com/Sweetr-feelin/py_study1/blob/main/task10.1.py)
   2. Вторая часть в виде скриншотов предоставлена файлами "task10.2_debug1.png" и "task10.2_debug2.png"
+ 
+* Задание 11 - тестирование:
+* 1. алгоритм сортировки, который делали на предыдущем (нулевом) курсе, оформил в виде функции и выложил в файл - https://github.com/Sweetr-feelin/py_study1/blob/main/task11_sort_function.py
+  2. юнит тесты для функции сортировки приложил в файле https://github.com/Sweetr-feelin/py_study1/blob/main/task11_unit_tests.py (тест "test_great_negative" выполняется несколько минут, но работает)
