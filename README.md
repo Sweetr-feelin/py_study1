@@ -20,3 +20,7 @@
 * Задание 11 - тестирование:
 * 1. алгоритм сортировки, который делали на предыдущем (нулевом) курсе, оформил в виде функции и выложил в файл - https://github.com/Sweetr-feelin/py_study1/blob/main/task11_sort_function.py
   2. юнит тесты для функции сортировки приложил в файле https://github.com/Sweetr-feelin/py_study1/blob/main/task11_unit_tests.py (тест "test_great_negative" выполняется несколько минут, но работает)
+
+Задание 12 - работа с файлами:
+* 1. task12_create10tf.py (https://github.com/Sweetr-feelin/py_study1/blob/main/task12_create10tf.py) - программа создаёт 10 файлов с именами 1.txt, 2.txt, ..., 10.txt, и в каждый записывает три случайных числа, каждое с новой строки
+  2. task12_read2f_n_count.py (https://github.com/Sweetr-feelin/py_study1/blob/main/task12_read2f_n_count.py) - функция, которая получает на вход два случайных числа от 1 до 10 и путь к файлам, по этим числам открывает два соответствующих файла из задания выше, и возвращает сумму шести чисел (содержимое обоих файлов)
