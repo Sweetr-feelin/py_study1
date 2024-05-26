@@ -43,3 +43,7 @@
 * 1. task16_dictionary1.py (https://github.com/Sweetr-feelin/py_study1/blob/main/task16_dictionary1.py) - программа, которая добавляет в словарь 100 случайных пар (предварительно в массив например ключи записываем) целый ключ + значение строка, затем считывает по ключам все значения и выводит, и затем удаляет все пары.
   2. task16_dictionary2.py (https://github.com/Sweetr-feelin/py_study1/blob/main/task16_dictionary2.py) - функция, которая получает список из 100 значений (сгенерируйте его заранее с числами в диапазоне от 1 до 10) и число N, и выдаёт список из тех значений в этом списке, которые повторяются не менее N раз.
 ---
+Задание 17 - Системы управления проектами/задачами:
+* 1. Доска проекта - https://github.com/users/Sweetr-feelin/projects/2/views/1
+  2. Скриншот доски - https://github.com/Sweetr-feelin/py_study1/blob/main/task17_image1.png
+  3. Скриншот таски - https://github.com/Sweetr-feelin/py_study1/blob/main/task17_image2.png
