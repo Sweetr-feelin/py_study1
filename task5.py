@@ -108,3 +108,45 @@ for i in range(n):
         warrior = Elf(name)
     list.append(warrior)
     list[i].foo()
+
+---
+
+Вариант с добавлением типизации:
+
+import random
+
+class Warrior:  # воин
+
+    def __init__(self, nam: str):
+        self._name = nam  # имя
+
+    def foo(self) -> str:
+        return "Warrior"
+
+class Dwarf(Warrior):  # дварф
+
+    def __init__(self, nam):
+        super().__init__(nam)
+
+    def foo(self) -> str:
+        return "Dwarf"
+
+class Elf(Warrior):  # эльф
+    def __init__(self, nam):
+        super().__init__(nam)
+
+    def foo(self) -> str:
+        return "Elf"
+
+
+lst: list = []
+n: int = 50
+for i in range(n):
+    name_num: int = random.randint(1, 500)
+    name: str = "warrior" + str(name_num)
+    if name_num % 2 == 0:
+        warrior: Dwarf = Dwarf(name)
+    else:
+        warrior: Elf = Elf(name)
+    lst.append(warrior)
+    print(lst[i].foo())
