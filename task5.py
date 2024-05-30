@@ -35,7 +35,7 @@ pistol.damage(5)
 knife = cold_weapon("Нож", 1, 1, cold_weapon, 3)
 knife.damage(1)
 
-4.2. Первая часть задания
+4.3. Первая часть задания
 class Warrior: # воин
 
     def __init__(self, nam):
@@ -70,7 +70,7 @@ warrior3.foo()
 
 ---
 
-Вторая часть задания
+4.3. Вторая часть задания
 import random
 
 class Warrior: # воин
@@ -111,7 +111,7 @@ for i in range(n):
 
 ---
 
-Вариант с добавлением типизации:
+4.3. Вторая часть задания - вариант с добавлением типизации:
 
 import random
 
@@ -150,3 +150,8 @@ for i in range(n):
         warrior: Elf = Elf(name)
     lst.append(warrior)
     print(lst[i].foo())
+
+---
+
+4.3. Вторая часть задания - обновленный вариант:
+
