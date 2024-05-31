@@ -194,7 +194,7 @@ cat = Cat()
 bird = Bird()
 lst = [cat, bird]
 
-def animals(l: list):
+def animals(l: list[Animal]):
     l.clear()
     n = 500
     for i in range(n):
