@@ -14,7 +14,7 @@ class Backlog:
     
     def __init__(self, task_quantt):
         self.task_quantt: float = task_quantt
-        self.backlog = []
+        self.backlog: List[Task_info] = []
     
     #Эмуляция создания бэклога
     def bl_creation_emul(self):
