@@ -9,9 +9,11 @@ class Task_info:
         return "Номер: " + self.number + ". Описание: " + self.name + "."
 
 class Backlog:
+    task_quantt: int
+    backlog: list
     
     def __init__(self, task_quantt):
-        self.task_quantt = task_quantt
+        self.task_quantt: float = task_quantt
         self.backlog = []
     
     #Эмуляция создания бэклога
@@ -31,6 +33,9 @@ class Backlog:
         else:
             print("В наличии только", self.task_quantt, " задач.")
             print("Укажите меньшее количество")
+
+print("Требуемые типы для работы с Backlog")
+print(Backlog.__annotations__)
 
 backlog = Backlog(6)
 bl = backlog.bl_creation_emul()
