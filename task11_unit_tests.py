@@ -93,66 +93,45 @@ import random
 
 class other_sort_massive_TestCases(unittest.TestCase):
 
-    def test_small_positive(self):  # Малый диапазон положительных целых чисел
-        n = 10
-        min = 1
-        max = 10
+    def createNsort_lsts(self, n, min, max):
         lst1 = []
         lst2 = []
         for i in range(n):
             x = random.randint(min, max)
             lst1.append(x)
             lst2.append(x)
-
         other_sort_massive(n, lst1)
         lst2.sort()
-        self.assertEqual(lst1, lst2)
+        return lst1, lst2
+
+    def test_small_positive(self):  # Малый диапазон положительных целых чисел
+        n = 10
+        min = 1
+        max = 10
+        self.createNsort_lsts(n, min, max)
+        self.assertEqual(self.createNsort_lsts, self.createNsort_lsts)
 
 
     def test_small_negative(self):  # Малый диапазон положительных и отрицательных целых чисел, включая "0"
         n = 10
         min = -3
         max = 3
-        lst1 = []
-        lst2 = []
-        for i in range(n):
-            x = random.randint(min, max)
-            lst1.append(x)
-            lst2.append(x)
-
-        other_sort_massive(n, lst1)
-        lst2.sort()
-        self.assertEqual(lst1, lst2)
+        self.createNsort_lsts(n, min, max)
+        self.assertEqual(self.createNsort_lsts, self.createNsort_lsts)
 
     def test_great_negative(self):  # Большой диапазон положительных и отрицательных целых чисел, включая "0"
         n = 5000
         min = -10000
         max = 10000
-        lst1 = []
-        lst2 = []
-        for i in range(n):
-            x = random.randint(min, max)
-            lst1.append(x)
-            lst2.append(x)
-
-        other_sort_massive(n, lst1)
-        lst2.sort()
-        self.assertEqual(lst1, lst2)
+        self.createNsort_lsts(n, min, max)
+        self.assertEqual(self.createNsort_lsts, self.createNsort_lsts)
 
     def test_float(self):  # Ввод дробного числа в качестве параметра
         n = 10.1
         min = -3
         max = 3
-        lst1 = []
-        lst2 = []
-        for i in range(n):
-            x = random.randint(min, max)
-            lst1.append(x)
-            lst2.append(x)
-
-        other_sort_massive(n, lst1)
-        lst2.sort()
-        self.assertEqual(lst1, lst2)
+        self.createNsort_lsts(n, min, max)
+        self.assertEqual(self.createNsort_lsts, self.createNsort_lsts)
 
 if __name__ == '__main__':
     unittest.main()
